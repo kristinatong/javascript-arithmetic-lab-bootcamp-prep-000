@@ -34,7 +34,7 @@ function test(n){
   console.log(n+1)
   n = n++
   console.log(n)
-  n = n++
+  n += 1
   console.log(n)
 }
 
