@@ -32,8 +32,8 @@ function preserveDecimal(n){
 
 function test(n){
   console.log(n+1)
-  d = n++
-  console.log(d)
+  n = n++
+  console.log(n)
 }
 
 test(1)
