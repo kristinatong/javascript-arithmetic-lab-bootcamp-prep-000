@@ -29,14 +29,3 @@ function makeInt(n){
 function preserveDecimal(n){
   return parseFloat(n)
 }
-
-function test(n){
-  console.log(n+1)
-  n = n++
-  console.log(n)
-  n += 1
-  console.log(n)
-}
-
-test(1)
-test(2)
